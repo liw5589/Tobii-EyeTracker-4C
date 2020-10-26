@@ -61,7 +61,7 @@ int main()
 
         thread t1([&]{
                     while(true){
-                        this_thread::sleep_for( std::chrono::milliseconds(500));
+                        this_thread::sleep_for( std::chrono::milliseconds(200));
                         if (flag){
                             intlib->WaitAndUpdate();
                         }
