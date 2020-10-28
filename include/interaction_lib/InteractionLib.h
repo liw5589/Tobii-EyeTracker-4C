@@ -433,7 +433,7 @@ namespace IL
         /// 
         /// The data streams can be subscribed to and unsubscribed from, at will, as long as only
         /// one callback is registered per data stream. Callbacks are made on the thread
-        /// calling Update() or UpdateStreamingDataOutput().
+        /// calling Update() or UpdateStreamingDat  aOutput().
         /// 
         /// @note Coordinates for data on the display are in the user specified coordinate system. Coordinates for other data 
         /// streams are in the original adapter coordinate system.
